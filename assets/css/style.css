@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+.body{
+    font-family: Quicksand,sans-serif;
+}
+
+
+/*-------------------------------------------Heading--------------------*/
+.container-fluid {
+    margin-bottom: 0px;
+    
+}
+
+.kol {
+    color: #11c6e0;
+    font-weight: 100;
+    margin-top: 65px;
+    font-size: 100px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*-------------------------------------------Homepage Text--------------------*/
+.mainpage-text {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    margin-top: 180px;
+    margin-bottom: 350px;
+}
+
+/*------------------------------------------Background--------------------*/
+body{
+    background-image: url(../images/stage1.jpg);
+    repeat: none;
+    fixed: center;
+    max-width: 100%;
+    height: auto;
+}
+
+/*-------------------------------------------H2,H3,H4,H5--------------------*/
+h3 {
+    text-transform: uppercase;
+    color: #11c6e0;
+    text-align: center;
+    font-size: 50px;
+    font-family: Quicksand,sans-serif;
+}
+
+h5{
+    text-transform: uppercase;
+}
+
+/*-------------------------------------------NAV Bar--------------------*/
+
+.navbar {
+    background-color: #7dd2de;
+}
+
+.nav-link, .navbar-brand {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+
+.btn-outline-primary{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+
+/*-------------------------------------------Footer--------------------*/
+footer {
+    background-color: #6c757d;
+    color: #11c6e0;
+    margin: 0px;
+    text-align: center;
+}
+
+.list-inline li{
+    display: inline-block;
+    border-radius: 50%;
+    padding: 15px 0px;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+
+
