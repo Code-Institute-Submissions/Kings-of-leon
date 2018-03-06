@@ -6,7 +6,7 @@
 
 
 /*-------------------------------------------Heading--------------------*/
-.container-fluid {
+.title {
     margin-bottom: 0px;
     
 }
@@ -20,32 +20,59 @@
     text-align: center;
 }
 
-/*-------------------------------------------Homepage Text--------------------*/
-.mainpage-text {
-    color: #ffffff;
-    text-align: center;
-    font-weight: 100;
-    font-size: 30px;
-    margin-top: 180px;
-    margin-bottom: 350px;
+/*-------------------------------------------Homepage vid1--------------------*/
+
+.home{
+    margin-bottom: 100px;
 }
+
+.vid1 {/* orginal width 560 height 315 */
+    text-align: left; 
+    margin-top: 100px;
+    margin-bottom: 80px;
+    margin-left: 150px;
+}
+
+.welcome, hometext {
+    text-align:right;
+    text-align-last: center;
+    color: #11c6e0;
+    size: 50px;
+    margin-right: 150px;
+    margin-top: 100px;
+    font-size: 28px;
+}
+
+/*-------------------------------------------Video page--------------------*/
+
+.vid2 {
+    margin-top: 60px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #11c6e0;
+    font-family: Quicksand,sans-serif;
+}
+
+
 
 /*------------------------------------------Background--------------------*/
 body{
     background-image: url(../images/stage1.jpg);
-    repeat: none;
-    fixed: center;
     max-width: 100%;
-    height: auto;
+    max-height: 100%;
 }
 
 /*-------------------------------------------H2,H3,H4,H5--------------------*/
 h3 {
-    text-transform: uppercase;
     color: #11c6e0;
     text-align: center;
-    font-size: 50px;
+    font-size: 35px;
     font-family: Quicksand,sans-serif;
+}
+
+h4 {
+    font-size: 30px;
 }
 
 h5{
@@ -87,6 +114,5 @@ footer {
     font-size: 30px;
     margin-left: 10px;
 }
-
 
 

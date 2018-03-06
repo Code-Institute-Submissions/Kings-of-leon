@@ -10,19 +10,19 @@
 
 <body>
     <header>
-        <div class="container-fluid">
+        <div class="container-fluid title">
             <h1 class="kol">Kings of Leon</h1>
         </div>
         <div class="container-fluid">
             <nav class="navbar fixed-top navbar-expand-lg">
-                <a class="navbar-brand" href="#">Home</a>
+                <a class="navbar-brand" href="index.html">Home</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse">
                 <span class="navbar-toggler-icon"></span>
                   </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Videos <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="Videos.html">Videos <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Music</a>
@@ -40,16 +40,20 @@
     </header>
 
     <section>
-        <div class="container-fluid mainpage">
+        <div class="container-fluid">
             <h3>Fan Page</h3>
         </div>
-        <div class="mainpage-text"><span>Welcome to KOL Fan page listen & love</span>
-
-            <audio id="player" src="assets/music/01 Waste a Moment.m4a"></audio>
-            <div>
-                <button onclick="document.getElementById('player').play()">Play</button>
-                <button onclick="document.getElementById('player').pause()">Pause</button>
-                <button onclick="document.getElementById('player').muted=!document.getElementById('player').muted">Mute/ Unmute</button>
+        <div class="container-fluid">
+            <div class="row home">
+                <div class="col vid1">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/E1y9-7EUIg0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <div class="col welcome">
+                    <h4>Welcome to the KOL Fan page</h4>
+                    <div class="hometext">Here you will find the latest vieos of the band from the latest album and few live tour vieos like you have just seen. If you have a specfic venue you would like the band to play at please click our venue tab and get in touch. For
+                        the rest of you set back and enjoy.
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -69,7 +73,8 @@
                     <li><a target="_blank" href="https://www.youtube.com/user/kingsofleonVEVO"><i class="fa fa-youtube"></i> </a></li>
                 </ul>
             </div>
-        </div </footer>
+        </div>
+    </footer>
 </body>
 
 </html>
