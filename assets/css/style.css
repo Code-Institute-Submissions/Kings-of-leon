@@ -20,6 +20,24 @@
     text-align: center;
 }
 
+
+/*-------------------------------------------NAV Bar--------------------*/
+
+.navbar {
+    background-color: #7dd2de;
+}
+
+.nav-link, .navbar-brand {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+
+.btn-outline-primary{
+    text-transform: uppercase;
+    text-align: center;
+}
+
 /*-------------------------------------------Homepage vid1--------------------*/
 
 .home{
@@ -79,25 +97,27 @@ h5{
     text-transform: uppercase;
 }
 
-/*-------------------------------------------NAV Bar--------------------*/
 
-.navbar {
-    background-color: #7dd2de;
+
+/*-------------------------------------------Music Page--------------------*/
+
+.waste, .somebody, .around, .radio, .find {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.nav-link, .navbar-brand {
-    color: #ffffff;
-    font-size: 20px;
+ol {
+    color: #11c6e0;
 }
 
-
-.btn-outline-primary{
-    text-transform: uppercase;
-    text-align: center;
+.col-4-songs{
+    margin-top: 100px;
 }
 
-
-
+.col-6-image{
+    text-align: right;
+    margin-top: 100px;
+}
 
 /*-------------------------------------------Footer--------------------*/
 footer {

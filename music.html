@@ -40,11 +40,61 @@
     </header>
 
     <section>
-        <audio id="player" src="assets/music/01 Waste a Moment.m4a"></audio>
-        <div>
-            <button onclick="document.getElementById('player').play()">Play</button>
-            <button onclick="document.getElementById('player').pause()">Pause</button>
-            <button onclick="document.getElementById('player').muted=!document.getElementById('player').muted">Mute/ Unmute</button>
+        <h3>Top Five KOL songs</h3>
+        <div class="container-fluid">
+            <div class="row justify-content-md-center">
+                <div class="col-4-songs">
+                    <div class>
+                        <ol type="I">
+                            <li>
+                                <div class="waste">
+                                    <audio id="waste" src="assets/music/01 Waste a Moment.m4a"></audio>
+                                    <button onclick="document.getElementById('waste').play()">Play</button>
+                                    <button onclick="document.getElementById('waste').pause()">Pause</button>
+                                    <button onclick="document.getElementById('waste').muted=!document.getElementById('player').muted">Mute/ Unmute</button>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="somebody">
+                                    <audio id="somebody" src="assets/music/04 Use Somebody.m4a"></audio>
+                                    <button onclick="document.getElementById('somebody').play()">Play</button>
+                                    <button onclick="document.getElementById('somebody').pause()">Pause</button>
+                                    <button onclick="document.getElementById('somebody').muted=!document.getElementById('player').muted">Mute/ Unmute</button>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="around">
+                                    <audio id="around" src="assets/music/03 Around the World.m4a"></audio>
+                                    <button onclick="document.getElementById('around').play()">Play</button>
+                                    <button onclick="document.getElementById('around').pause()">Pause</button>
+                                    <button onclick="document.getElementById('around').muted=!document.getElementById('player').muted">Mute/ Unmute</button>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="radio">
+                                    <audio id="radio" src="assets/music/01 Radioactive.m4a"></audio>
+                                    <button onclick="document.getElementById('radio').play()">Play</button>
+                                    <button onclick="document.getElementById('radio').pause()">Pause</button>
+                                    <button onclick="document.getElementById('radio').muted=!document.getElementById('player').muted">Mute/ Unmute</button>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="find">
+                                    <audio id="find" src="assets/music/04 Find Me.m4a"></audio>
+                                    <button onclick="document.getElementById('find').play()">Play</button>
+                                    <button onclick="document.getElementById('find').pause()">Pause</button>
+                                    <button onclick="document.getElementById('find').muted=!document.getElementById('player').muted">Mute/ Unmute</button>
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-6-image">
+                    
+                        <img src="assets/images/37.jpg"></img>
+                    
+                </div>
+            </div>
         </div>
     </section>
 
