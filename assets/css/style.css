@@ -24,11 +24,11 @@
 /*-------------------------------------------NAV Bar--------------------*/
 
 .navbar {
-    background-color: #7dd2de;
+    background-color: #11c6e0;
 }
 
 .nav-link, .navbar-brand {
-    color: #ffffff;
+    color: #efefee;
     font-size: 20px;
 }
 
@@ -54,7 +54,7 @@
 .welcome, hometext {
     text-align:right;
     text-align-last: center;
-    color: #11c6e0;
+    color: #d5d1ca;
     size: 50px;
     margin-right: 150px;
     margin-top: 100px;
@@ -76,9 +76,10 @@
 
 /*------------------------------------------Background--------------------*/
 body{
-    background-image: url(../images/stage1.jpg);
+    background-image: url(../images/stagevanilla.jpg);
     max-width: 100%;
     max-height: 100%;
+    
 }
 
 /*-------------------------------------------H2,H3,H4,H5--------------------*/
@@ -91,6 +92,7 @@ h3 {
 
 h4 {
     font-size: 30px;
+    color: #11c6e0;
 }
 
 h5{
@@ -121,7 +123,6 @@ ol {
 
 /*-------------------------------------------Footer--------------------*/
 footer {
-    background-color: #6c757d;
     color: #11c6e0;
     margin: 0px;
     text-align: center;
