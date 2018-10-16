@@ -44,7 +44,7 @@ The music page
     I had to add a mute button and play and pause buttons for the user to be able to listen to the songs. 
     
     The carsole didn't work the fisrt time I used it as I had script jquary at the header instead of the footer. 
-        Clicking on the carsoul buttons to insure that it changes to the next image and waiting a few seconds to see if it does automatically. 
+    Clicking on the carsoul buttons to insure that it changes to the next image and waiting a few seconds to see if it does automatically. 
 
 The venue page
     As there is no backend to this project there is no way of accepting the an email address or creating a profle.
